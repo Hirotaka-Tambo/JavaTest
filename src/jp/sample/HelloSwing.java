@@ -20,7 +20,7 @@ public class HelloSwing {
             
             button.addActionListener(action -> label.setText("クリア"));
             
-            label.setFont(new Font("Arual", Font.PLAIN, 60));
+            label.setFont(new Font("Arual", Font.BOLD, 60));
 
             // フレームにラベルを追加
             frame.setLayout(new java.awt.BorderLayout());
