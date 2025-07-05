@@ -6,6 +6,8 @@ public class BookBook {
 	    public static void main(String[] args) {
 	        // Mapの作成（順番を保持したいので LinkedHashMap を使用）
 	        Map<String, Book> bookMap = new LinkedHashMap<>();
+	        
+	        //HashMapはキーと値両方を持つことが可能
 
 	        // BookオブジェクトをMapに追加
 	        bookMap.put("978-4-04-109271-5", new Book("騎士団長殺し", "村上春樹"));
